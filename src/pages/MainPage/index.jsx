@@ -7,10 +7,10 @@ import {Layout} from "antd";
 const {Footer} = Layout;
 import MyFooter from "@components/MyFooter/index.jsx";
 import Layer from "@pages/Layer/index.jsx";
-import Mirror from "@pages/Mirror/index.jsx";
-import Coffee from "@pages/Coffee/index.jsx";
-import Deposit from "@pages/Deposit/index.jsx";
-import Notice from "@components/Notice/index.jsx";
+// import Mirror from "@pages/Mirror/index.jsx";
+// import Coffee from "@pages/Coffee/index.jsx";
+// import Deposit from "@pages/Deposit/index.jsx";
+// import Notice from "@components/Notice/index.jsx";
 
 function MainPage() {
     const location = useLocation()
@@ -21,7 +21,7 @@ function MainPage() {
                 minHeight: "100vh",
             }}
         >
-            <Notice/>
+            {/* <Notice/> */}
             <Layout>
                 <div
                     style={{
@@ -54,12 +54,12 @@ function MainPage() {
                         {location.pathname === "/zksync" && <Zksync/>}
                         {location.pathname === "/stark" && <Stark/>}
                         {location.pathname === "/layer" && <Layer/>}
-                        {location.pathname === "/mirror" && <Mirror/>}
+                        {/* {location.pathname === "/mirror" && <Mirror/>}
                         {location.pathname === "/coffee" && <Coffee/>}
-                        {location.pathname === "/deposit" && <Deposit/>}
+                        {location.pathname === "/deposit" && <Deposit/>} */}
                     </div>
                 </div>
-                <Footer
+                {/* <Footer
                     style={{
                         backgroundColor: "#f0f2f5",
                         textAlign: "center",
@@ -67,7 +67,7 @@ function MainPage() {
                     }}
                 >
                     <MyFooter/>
-                </Footer>
+                </Footer> */}
             </Layout>
         </div>
     );
