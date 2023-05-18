@@ -15,18 +15,18 @@ const items = [
         label: 'LayerZero',
         key: 'layer',
     },
-    {
-        label: 'Mirror',
-        key: 'mirror',
-    },
-    {
-        label: 'Deposit',
-        key: 'deposit',
-    },
-    {
-        label: 'Coffee',
-        key: 'coffee',
-    }
+    // {
+    //     label: 'Mirror',
+    //     key: 'mirror',
+    // },
+    // {
+    //     label: 'Deposit',
+    //     key: 'deposit',
+    // },
+    // {
+    //     label: 'Coffee',
+    //     key: 'coffee',
+    // }
 ];
 const MenuHeader = () => {
     const navigate = useNavigate();
